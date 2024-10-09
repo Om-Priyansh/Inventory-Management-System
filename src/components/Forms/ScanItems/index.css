@@ -1,0 +1,13 @@
+.cameraRectangle{
+    /* width: 100px; */
+    /* height: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: aliceblue;
+}

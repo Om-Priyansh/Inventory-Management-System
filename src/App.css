@@ -1,0 +1,35 @@
+#root {
+    /* background: linear-gradient(10deg, #ed1c24, #f0a413, #76c2e5); */
+    /* background: rgb(237,28,36);
+background: linear-gradient(90deg, rgba(237,28,36,1) 33%, rgba(252,176,23,1) 33%, rgba(252,176,23,1) 66%, rgba(118,194,229,1) 66%); */
+background: rgb(237,28,36);
+background: linear-gradient(90deg, rgba(237,28,36,1) 0%, rgba(252,176,23,1) 50%, rgba(118,194,229,1) 100%);
+    /* background-size: 400% 400%; */
+    background-size: cover;
+    /* animation: gradientShift 15s ease infinite; */
+    /* filter: blur(20px); */
+    height: 100vh;
+    margin: 0;
+    background-attachment: fixed;
+    
+  }
+  
+  body, html, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+/* #root{
+    background: black;
+    height: 100%;
+    width: 100%;
+} */
+  
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
