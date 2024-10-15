@@ -8,11 +8,11 @@ const Dashboard = () => {
     const navigate = useNavigate();
 
     const handleAddProduct = () =>{
-        navigate("/addproduct");
+        navigate("/dashboard/addproduct");
     };
 
     const handleScanProduct = () => {
-        navigate("/scanproduct");
+        navigate("/dashboard/scanproduct");
     };
 
 
@@ -27,9 +27,22 @@ const Dashboard = () => {
       >
         <h1 className="text-3xl font-bold text-gray-800 mb-6">Dashboard</h1>
         <div className="flex items-center justify-center ">
-          <ChooseButton />
+        <div className='flex space-x-10'>
+
+<button className="bg-white/50 backdrop-blur-lg text-gray-700 font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-white/70"
+          onClick={handleAddProduct}
+          >
+            Add Product
+          </button>
+          <button className="bg-white/50 backdrop-blur-lg text-gray-700 font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-white/70"
+          onClick={handleScanProduct}
+          >
+            Scan Product
+          </button>
+
+          </div>
         </div>
-      </div>
+      </div>                                                                                                    ``
     </div>
 
 

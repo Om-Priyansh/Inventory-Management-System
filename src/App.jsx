@@ -21,8 +21,8 @@ function App() {
   <Routes>
       {/* <NavBar />
       <Forms /> */}
-      <Route path = "/login" element = {<Login />} />
-      <Route path = "/" element = {<><NavBar /> <Forms /> </>} />
+      <Route path = "/" element = {<Login />} />
+      {/* <Route path = "/" element = {<><NavBar /> <Forms /> </>} /> */}
       <Route path = "/dashboard" element = {<Dashboard />} />
       <Route path = "/dashboard/addproduct" element = {<AddProduct />} />
       <Route path = "/dashboard/scanproduct" element = {<ScanProduct />} />
